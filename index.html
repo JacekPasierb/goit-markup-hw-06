@@ -461,23 +461,20 @@
               <label for="email" class="head-in-footer block">
                 zapisz się do newslettera</label
               >
-              <input class="newsletter-input"
+              <input
+                class="newsletter-input"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
               />
-              
-                <button
-                  class="style-text-button background-button"
-                  type="submit"
-                >
-                  Zapisz się
-                  <svg class="icon">
-                    <use href="./images/icons.svg#icon-send"></use>
-                  </svg>
-                </button>
-              
+
+              <button class="style-text-button background-button" type="submit">
+                Zapisz się
+                <svg class="icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </button>
             </form>
           </div>
         </div>
@@ -489,17 +486,26 @@
         <form class="order">
           <h4 class="head-in-form">Zostaw swoje dane w formularzu poniżej</h4>
           <label for="name">Imię</label>
-          <input type="text" name="name" id="name">
+          <input type="text" name="name" id="name" />
           <label for="phone">Telefon</label>
-          <input type="tel" name="phone" id="phone">
+          <input type="tel" name="phone" id="phone" />
           <label for="email">Email</label>
-          <input type="mail" name="email" id="email">
+          <input type="mail" name="email" id="email" />
           <label for="comment">Komentarz</label>
-          <textarea name="comment" id="comment" placeholder="Wprowadź tekst"></textarea>
-          <label>
-            <input type="checkbox" name="accept" id="accept" checked />
-            Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="Wprowadź tekst"
+          ></textarea>
+          <label class="checkbox-accept">
+            <input
+              type="checkbox"
+              name="accept"
+              id="accept"
+              checked
+            /><span class="accept-regulamin">Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span>
           </label>
+          <button type="button">Wyślij</button>
         </form>
       </div>
     </div>
