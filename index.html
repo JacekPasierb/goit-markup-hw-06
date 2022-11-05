@@ -461,19 +461,23 @@
               <label for="email" class="head-in-footer block">
                 zapisz się do newslettera</label
               >
-              <input
+              <input class="newsletter-input"
                 type="email"
                 name="email"
                 id="email"
                 placeholder="E-mail"
               />
-
-              <button class="style-text-button background-button" type="submit">
-                Zapisz się
-                <svg class="icon">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
+              
+                <button
+                  class="style-text-button background-button"
+                  type="submit"
+                >
+                  Zapisz się
+                  <svg class="icon">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                </button>
+              
             </form>
           </div>
         </div>
@@ -482,6 +486,7 @@
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>X</button>
+        
       </div>
     </div>
     <script src="./modal.js"></script>
