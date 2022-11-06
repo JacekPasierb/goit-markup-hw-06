@@ -549,6 +549,8 @@ footer .background-button {
 }
 .modal .background-button {
   padding: 10px 76px;
+width:200px;
+height:50px;
 }
 
 
@@ -609,3 +611,16 @@ border: 0;
   
   margin-bottom: 20px;
 }
+.fieldset-checkbox {
+  display: flex;
+  position: relative;
+ border: 0;
+  width:424px;
+  height:24px;
+  margin-inline: auto;
+  padding:0;
+  
+  margin-bottom: 30px;
+
+}
+

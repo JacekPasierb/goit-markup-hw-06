@@ -508,18 +508,22 @@
           </fieldset>
           <fieldset class="textarea">
             <label class="label" for="comment">Komentarz</label>
-            <textarea class="input"
+            <textarea
+              class="input"
               name="comment"
               id="comment"
               placeholder="Wprowadź tekst"
             ></textarea>
           </fieldset>
-          <label class="checkbox-accept">
-            <input type="checkbox" name="accept" id="accept" checked /><span
-              class="accept-regulamin"
-              >Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span
-            >
-          </label>
+          <fieldset class="fieldset-checkbox">
+            <label class="checkbox-accept">
+              <input type="checkbox" name="accept" id="accept" checked /><span
+                class="accept-regulamin"
+                >Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span
+              >
+            </label>
+          </fieldset>
+          
           <button class="style-text-button background-button" type="button">
             Wyślij
           </button>
