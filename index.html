@@ -486,44 +486,44 @@
         <form class="form-order">
           <h4 class="head-in-form">Zostaw swoje dane w formularzu poniżej</h4>
           <fieldset class="fieldset">
-            <label class="label" for="name">Imię</label>
-            <svg class="icon-order">
-              <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-            </svg>
-            <input class="input" type="text" name="name" id="name" />
+            <div class="input-order">
+              <label class="label-order" for="name">Imię</label>
+              <svg class="icon-order">
+                <use href="/images/icons.svg#icon-person-black-18dp-1"></use>
+              </svg>
+              <input class="input" name="name" type="text" id="name" />
+            </div>
+            <div class="input-order">
+              <label class="label-order" for="phone">Telefon</label>
+              <svg class="icon-order">
+                <use href="/images/icons.svg#icon-phone-black-18dp-1"></use>
+              </svg>
+              <input class="input" name="phone" type="tel" id="phone" />
+            </div>
+            <div class="input-order">
+              <label class="label-order" for="email">Email</label>
+              <svg class="icon-order">
+                <use href="/images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+              <input class="input" name="email" type="mail" id="email" />
+            </div>
+
+            <div class="input-order-comment">
+              <label class="label-order" for="comment">Komentarz</label>
+              <svg class="icon-order">
+                <use href="/images/icons.svg#icon-email-black-18dp-1"></use>
+              </svg>
+              <textarea class="input" name="comment" type="text" id="comment" />
+            </div>
           </fieldset>
-          <fieldset class="fieldset">
-            <label class="label" for="phone">Telefon</label>
-            <svg class="icon-order">
-              <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-            </svg>
-            <input class="input" type="tel" name="phone" id="phone" />
-          </fieldset>
-          <fieldset class="fieldset">
-            <label class="label" for="email">Email</label>
-            <svg class="icon-order">
-              <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-            </svg>
-            <input class="input" type="mail" name="email" id="email" />
-          </fieldset>
-          <fieldset class="textarea">
-            <label class="label" for="comment">Komentarz</label>
-            <textarea
-              class="input"
-              name="comment"
-              id="comment"
-              placeholder="Wprowadź tekst"
-            ></textarea>
-          </fieldset>
-          <fieldset class="fieldset-checkbox">
-            <label class="checkbox-accept">
-              <input type="checkbox" name="accept" id="accept" checked /><span
-                class="accept-regulamin"
-                >Oświadczam iż akceptuję Regulamin i Politykę Prywatności.</span
-              >
-            </label>
-          </fieldset>
-          
+          <label class="checked-label">
+            <input
+              type="checkbox"
+              name="accept"
+              id="accept"
+              checked
+            />Oświadczam iż akceptuję Regulamin i Politykę Prywatności.
+          </label>
           <button class="style-text-button background-button" type="button">
             Wyślij
           </button>
