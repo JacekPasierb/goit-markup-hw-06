@@ -335,6 +335,7 @@ nav {
   text-transform: uppercase;
   color: #ffffff;
   padding-bottom: 20px;
+ 
 }
 .flex-footer {
   display: flex;
@@ -518,16 +519,14 @@ footer .background-button {
   align-items: center;
   
 }
-.head-in-form {
+.form-order .head-in-form {
   font-weight: bold;
   font-size: 20px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
   margin-bottom: 28px;
-  position: absolute;
-  top:0;
-  left:-24px;
+  
 }
 
 .modal .background-button {
