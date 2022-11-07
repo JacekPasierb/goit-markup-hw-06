@@ -221,7 +221,8 @@ h3,
 h4,
 p,
 ul,
-figure {
+figure,
+fieldset {
   margin: 0;
   padding: 0px;
 }
@@ -526,7 +527,7 @@ footer .background-button {
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 36px;
+  margin-bottom: 28px;
 }
 
 .modal .background-button {
