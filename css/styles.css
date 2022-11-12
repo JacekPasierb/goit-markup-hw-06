@@ -621,9 +621,15 @@ color: #757575;
 }
 
 .checkbox-accept .checkbox {
-  width:16px;
-  height:15px;
+  
+
+  width:0;
+  height:0;
+  opacity:0;
   margin-right: 7px;
+  cursor:pointer;
+  
+  
 }
 .form-order .checked-label {
   display: flex;
@@ -631,11 +637,38 @@ color: #757575;
   margin-bottom: 30px;
   font-size: 14px;
 line-height: 1.7;
+position: relative;
 
 letter-spacing: 0.03em;
 
 color: #757575;
 
+
+}
+.checked-label .checkmark {
+  
+  position:absolute;
+  left: -16px;
+  width:16px;
+  height:15px;
+  border:1px solid black;
+  cursor: pointer;
+  
+}
+.checked-label .checkmark::after {
+  display: none;
+content:"";
+width:4px;
+height:9px;
+border:4px solid red;
+transform:rotate(45deg);
+position:absolute;
+left:6px;
+top:2px;
+border-width: 0 3px 3px 0;
+}
+.checked-label input:checked ~ .checkmark::after {
+  display: inline-block;
 }
 .checked-label a {
   text-decoration: underline;
