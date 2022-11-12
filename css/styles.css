@@ -705,6 +705,7 @@ margin-right: 12px;
 .form-newsletter {
   position: relative;
   display: flex;
+  top:53px;
 
 }
 .footer-background .come-in {
