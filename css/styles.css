@@ -644,6 +644,7 @@ letter-spacing: 0.03em;
 color: #757575;
 
 
+
 }
 .checked-label .checkmark {
   
@@ -658,18 +659,23 @@ color: #757575;
 .checked-label .checkmark::after {
   display: none;
 content:"";
-width:4px;
-height:9px;
-border:4px solid red;
+width:7px;
+height:11px;
+border:4px solid rgba(255, 255, 255, 1);
 transform:rotate(45deg);
 position:absolute;
-left:6px;
-top:2px;
+left:4px;
+top:-1px;
 border-width: 0 3px 3px 0;
 }
 .checked-label input:checked ~ .checkmark::after {
   display: inline-block;
 }
+.checked-label input:checked ~ .checkmark {
+  background-color: rgba(33, 150, 243, 1);
+  border-color:rgba(33, 150, 243, 1);
+}
+
 .checked-label a {
   text-decoration: underline;
   color: rgba(33, 150, 243, 1);
