@@ -513,12 +513,7 @@ footer .social-list-link {
 
 
 
-footer .background-button {
-  padding-block: 10px 8px 10px 42px;
-  display: flex;
-  align-items: center;
-  
-}
+
 .form-order .head-in-form {
   font-weight: bold;
   font-size: 20px;
@@ -683,43 +678,44 @@ display: none;
   color: rgba(33, 150, 243, 1);
   margin-inline: 4px;
 }
-.input-newsletter {
-  width:358px;
-  height:50px;
-
-background-color: transparent;
-border: 1px solid rgba(255, 255, 255, 0.3);
-border-radius: 4px;
-margin-right: 12px;
-}
-.form-newsletter .head-in-footer {
-  position: absolute;
-  top:-34px;
-  left:0;
-}
-.input-newsletter .input {
-  width:100%;
-  height:100%;
-  background-color: transparent;
-  border: 0;
-padding-left: 16px;
-}
-.form-newsletter {
-  position: relative;
-  display: flex;
-  top:53px;
-
-}
 .footer-background .come-in {
   margin-left: 70px;
 }
-.footer-background .save-newsletter {
-  margin-left: 77px;
+.form-newsletter .head-in-footer {
+  display: block;
 }
 .form-newsletter .icon-newsletter {
   width:24px;
   height:24px;
   fill: #ffffff;
   margin-left: 24px;
-
+  
 }
+.form-newsletter {
+  margin-left: 77px;
+}
+.form-newsletter .input {
+  width:358px;
+  height:50px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    background-color: transparent;
+    outline: 0;
+  padding-left: 16px;
+  margin-right: 12px;
+  display:inline-block
+  }
+ 
+  .form-newsletter .background-button {
+    width:200px;
+    height:50px;
+    padding: 10px 13px 10px 42px;
+    display: flex;
+    
+  }
+  .flex-newsletter {
+    display: flex;
+    
+    align-items: center;
+  }
