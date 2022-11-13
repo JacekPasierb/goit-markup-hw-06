@@ -660,25 +660,23 @@ color: #757575;
 
   
 }
-.checked-label .checkmark::after {
-  display: none;
-content:"";
-width:7px;
-height:11px;
-border:4px solid rgba(255, 255, 255, 1);
-transform:rotate(45deg);
-position:absolute;
-left:4px;
-top:-1px;
-border-width: 0 3px 3px 0;
+.iconn-bird {
+display: none;
+  width:11px;
+  height:8px;
+  position: absolute;
+  left:-14px;
+
 }
-.checked-label input:checked ~ .checkmark::after {
-  display: inline-block;
-}
+
 .checked-label input:checked ~ .checkmark {
   background-color: rgba(33, 150, 243, 1);
   border-color:rgba(33, 150, 243, 1);
 }
+.checked-label input:checked ~ .iconn-bird {
+  display: inline-block;
+}
+
 
 .checked-label a {
   text-decoration: underline;
